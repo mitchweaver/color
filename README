@@ -1,9 +1,5 @@
-# x11-colorpicker
-Super simple color picker that only relies on X11. Prints the color as a hex
-triplet to stdout.
+# color
 
-## Usage
+dead simple color picker for x11
 
-    $ x11-colorpicker
-      < ... Click ... >
-    #f17ccf
+click with mouse to output #HEXHEX
