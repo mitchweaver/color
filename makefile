@@ -6,7 +6,7 @@ LIBS = -L/usr/X11R6/lib -L/usr/lib -lX11
 CC = cc
 
 $(NAME): 
-	$(CC) $(INC) $(LIBS) $(CFLAGS) $(NAME).c -o $(NAME)
+	$(CC) $(INC) $(CFLAGS) $(NAME).c $(LIBS) -o $(NAME)
 
 install:
 	install -D -m 0755 $(NAME) $(PREFIX)/bin/$(NAME)
